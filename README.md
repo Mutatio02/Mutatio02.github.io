@@ -16,9 +16,8 @@
 - **A Comparative Study of CNN vs. Swin Transformer** (Multi-Class Food Image Classification) 🍔
 
 ### 💡 Research Interests
-* **Data Science**: Statistical modeling and large-scale data analysis.
-* **Deep Learning**: Multimodal AI architectures.
-
+* **AI**: Multimodal AI architectures.
+* **Data Science**: Statistical modeling, Data Engineering, Data Analysis.
 ---
 
 ### 📫 Contact & Links

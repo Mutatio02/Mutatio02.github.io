@@ -1,37 +1,28 @@
-# 👋 Hello, I'm Sungjun An 
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/render?type=waving&color=auto&height=200&section=header&text=Sungjun%20An&fontSize=70" />
-</p>
+# 🏛️ Sungjun An 
 
 ### 🎓 Education
-- **Major:** Software (Computer Science)
-- **Double Major:** Data Science
-- **Minor:** Economics & Finance
+* **Major**: Software (Computer Science)
+* **Double Major**: Data Science
+* **Minor**: Economics & Finance
+
+---
 
 ### 🔍 Research Interests
-- **Multimodal AI** & Deep Learning architectures
 - **Data Science** & Statistical Analysis
-- Finance-related Data Modeling
+- **Multimodal AI** & Deep Learning architectures
 
 ### 🧪 Academic & Research Experience
-- **Multimodal-based YouTube Shorts Views Analysis** 
-- **A Comparative Study of CNN vs. Swin Transformer** (Multi-Class Food Image Classification) 
+- **Multimodal-based YouTube Shorts Views Analysis** 📈
+- **A Comparative Study of CNN vs. Swin Transformer** (Multi-Class Food Image Classification) 🍔
+
+### 💡 Research Interests
+* **Data Science**: Statistical modeling and large-scale data analysis.
+* **Deep Learning**: Multimodal AI architectures.
 
 ---
 
-<!-- ### 🛠 Tech Stack
-<p>
-
-</p>
-
-### 📊 GitHub Stats
-<p align="center">
-
-</p> -->
-
----
-
-### 📫 Contact Me
-- **Email:** [sungjun020521@gmail.com](mailto:sungjun020521@gmail.com)
-- **GitHub:** [github.com/Mutatio02](https://github.com/Mutatio02)
+### 📫 Contact & Links
+* **Email**: [sungjun020521@gmail.com](mailto:sungjun020521@gmail.com)
+* **GitHub**: [github.com/Mutatio02](https://github.com/Mutatio02)
+* **Portfolio**: [Visit My Website](https://mutatio02.github.io) ---
+<p align="right">© 2025 Sungjun An. Built with Minimalist Precision.</p>

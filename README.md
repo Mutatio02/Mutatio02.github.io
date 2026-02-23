@@ -1,27 +1,42 @@
 # 🏛️ Sungjun An 
 
-### 🎓 Education
-* **Major**: Software (Computer Science)
-* **Double Major**: Data Science
-* **Minor**: Economics & Finance
+🎓 Undergraduate in Software (Computer Science)  
+📊 Double Major in Data Science | Minor in Economics & Finance  
 
 ---
 
-### 🔍 Research Interests
-- **Data Science** & Statistical Analysis
-- **Multimodal AI** & Deep Learning architectures
+## 🔍 Research Interests
+- Multimodal Learning  
+- Representation Learning  
+- Vision-Language Models (exploring)  
+- Data-centric AI  
 
-### 🧪 Academic & Research Experience
-- **Multimodal-based YouTube Shorts Views Analysis** 📈
-- **A Comparative Study of CNN vs. Swin Transformer** (Multi-Class Food Image Classification) 🍔
-
-### 💡 Research Interests
-* **AI**: Multimodal AI architectures.
-* **Data Science**: Statistical modeling, Data Engineering, Data Analysis.
 ---
 
-### 📫 Contact & Links
-* **Email**: [sungjun020521@gmail.com](mailto:sungjun020521@gmail.com)
-* **GitHub**: [github.com/Mutatio02](https://github.com/Mutatio02)
-* **Portfolio**: [Visit My Website](https://mutatio02.github.io) ---
-<p align="right">© 2025 Sungjun An. Built with Minimalist Precision.</p>
+## 🧪 Research & Projects
+- **Multimodal Analysis of YouTube Shorts View Counts** 📈📱  
+- **Early Detection of Autonomous Driving Perception Errors via Cross-Attention GRU Multimodal Fusion** 🚗👁️  
+- **CNN vs. Swin Transformer for Multi-Class Food Image Classification** 🍔🔍  
+
+---
+
+## 💡 What I Work On
+- **Multimodal AI**: Aligning and fusing vision, language, and temporal data  
+- **Data Science**: Statistical modeling, data analysis, and real-world applications  
+
+---
+
+## 🚀 Currently Interested In
+- Extending multimodal learning toward vision-language models  
+- Applying multimodal models to real-world data (e.g., video, content platforms)
+
+---
+
+## 📫 Contact & Links
+- **Email**: [sungjun020521@gmail.com](mailto:sungjun020521@gmail.com)  
+- **GitHub**: [github.com/Mutatio02](https://github.com/Mutatio02)  
+- **Portfolio**: [Visit My Website](https://mutatio02.github.io)
+
+---
+
+<p align="right">© 2026 Sungjun An</p>

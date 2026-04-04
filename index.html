@@ -3,219 +3,140 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sungjun An | Research Portfolio</title>
-
+  <title>Sungjun An | Portfolio</title>
   <style>
     :root {
-      --primary-color: #2e7d32;
-      --secondary-color: #1565c0;
-      --accent-color: #6a1b9a;
-      --bg-color: #f8f9fa;
-      --text-color: #2c3e50;
-      --card-bg: #ffffff;
+      --text-color: #333;
+      --link-color: #007bff;
+      --section-margin: 50px;
     }
 
     body {
-      font-family: 'Segoe UI', Roboto, sans-serif;
-      margin: 0;
-      line-height: 1.7;
-      background: var(--bg-color);
+      font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
       color: var(--text-color);
+      max-width: 800px;
+      margin: 60px auto;
+      padding: 0 20px;
+      background-color: #fff;
     }
 
-    header {
-      text-align: center;
-      padding: 60px 20px;
-      background: white;
-      border-bottom: 1px solid #eee;
+    h1 { font-size: 2.2em; margin-bottom: 5px; }
+    h2 { 
+      font-size: 1.5em; 
+      border-bottom: 1px solid #eee; 
+      padding-bottom: 5px; 
+      margin-top: var(--section-margin);
+      margin-bottom: 20px;
+      color: #222;
     }
 
-    .profile-img {
-      width: 150px;
-      height: 150px;
-      border-radius: 50%;
-      object-fit: cover;
-      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    .profile-section { display: flex; align-items: flex-start; gap: 30px; margin-bottom: 40px; }
+    .profile-img { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 1px solid #eee; }
+    .bio-text { flex: 1; }
+
+    .item { margin-bottom: 25px; }
+    .item-title { font-weight: bold; font-size: 1.1em; display: block; color: #111; }
+    .item-authors { font-size: 0.95em; color: #555; }
+    .item-venue { font-style: italic; color: #666; font-size: 0.95em; }
+    .year-label { font-weight: bold; font-size: 1.2em; margin: 30px 0 10px 0; color: #999; }
+    
+    a { color: var(--link-color); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    
+    ul { padding-left: 20px; margin-top: 5px; }
+    li { margin-bottom: 8px; font-size: 0.95em; }
+
+    .contact-section {
+      margin-top: var(--section-margin);
+      padding-top: 20px;
+      text-align: left;
     }
 
-    h1 {
-      margin: 20px 0 10px;
-      font-size: 2.5em;
-    }
+    footer { text-align: center; color: #999; margin-top: 60px; font-size: 0.85em; border-top: 1px solid #eee; padding-top: 20px; }
 
-    .subtitle {
-      color: #666;
-    }
-
-    .container {
-      max-width: 850px;
-      margin: auto;
-      padding: 40px 20px;
-    }
-
-    section {
-      margin-bottom: 60px;
-    }
-
-    h2 {
-      border-bottom: 2px solid var(--primary-color);
-      display: inline-block;
-      padding-bottom: 5px;
-      margin-bottom: 25px;
-    }
-
-    .card {
-      background: var(--card-bg);
-      padding: 20px;
-      border-radius: 12px;
-      margin-bottom: 15px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-      border-left: 5px solid var(--secondary-color);
-      transition: transform 0.2s ease;
-    }
-
-    .card:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    }
-
-    .title {
-      font-weight: 700;
-    }
-
-    .meta {
-      font-size: 0.9em;
-      color: #555;
-    }
-
-    .badge {
-      display: inline-block;
-      background: #e3f2fd;
-      color: var(--secondary-color);
-      padding: 3px 10px;
-      border-radius: 10px;
-      font-size: 0.8em;
-      margin-right: 5px;
-    }
-
-    .interest-tag {
-      display: inline-block;
-      background: #e8f5e9;
-      color: var(--primary-color);
-      padding: 5px 15px;
-      border-radius: 20px;
-      margin: 5px;
-      font-weight: 600;
-      font-size: 0.9em;
-    }
-
-    a {
-      color: var(--secondary-color);
-      text-decoration: none;
-      font-weight: 500;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-
-    footer {
-      text-align: center;
-      padding: 30px;
-      font-size: 0.9em;
-      color: #999;
+    @media (max-width: 600px) {
+      .profile-section { flex-direction: column; text-align: center; }
+      .profile-img { margin: 0 auto; }
     }
   </style>
 </head>
-
 <body>
 
-<header>
-  <img src="images/asj_pic.jpg" alt="Sungjun An" class="profile-img">
-  <h1>Sungjun An</h1>
-  <p class="subtitle">Multimodal AI · Data Science</p>
-</header>
+  <div class="profile-section">
+    <img src="images/asj_pic.jpg" alt="Sungjun An" class="profile-img">
+    <div class="bio-text">
+      <h1>Sungjun An</h1>
+      <p>
+        I am an undergraduate student at <strong>Kangnam University</strong>, majoring in Software with a double major in Data Science.
+      </p>
+      <p>
+        Currently, I am a Research Intern at the <a href="https://utl.korea.ac.kr/" target="_blank">Universal Transfer Learning (UTL) Lab</a> at Korea University, supervised by <strong>Prof. Donghyun Kim</strong>.
+      </p>
+      <p>
+       I have also received individual research mentorship from <a href="https://scholar.google.com/citations?user=BsKO-L0AAAAJ&hl=ko" target="_blank"><strong>Prof. Chanhee Kwak</strong></a>.
+      </p>
+    </div>
+  </div>
 
-<div class="container">
+  <section id="experience">
+    <h2>Experience</h2>
+    <div class="item">
+      <span class="item-title">Research Intern</span>
+      <span class="item-authors">Universal Transfer Learning (UTL) Lab, <strong>Korea University</strong></span>
+      <span class="item-venue">Supervised by Prof. Donghyun Kim · Mar 2026 – Present</span>
+    </div>
 
-  <!-- About -->
-  <section>
-    <h2>About Me</h2>
+    <div class="item">
+      <span class="item-title">Individual Research Mentee</span>
+      <span class="item-authors">Mentored by <a href="https://scholar.google.com/citations?user=BsKO-L0AAAAJ&hl=ko" target="_blank">Prof. Chanhee Kwak</a></span>
+      <span class="item-venue">Nov 2024 – Feb 2026</span>
+      <ul>
+        <li>Received academic guidance on research methodology and paper writing.</li>
+      </ul>
+    </div>
+
+    <div class="item">
+      <span class="item-title">Assistant Instructor / Teaching Assistant</span>
+      <span class="item-authors">TedI Coding Academy</span>
+      <span class="item-venue">Jul 2025 – Mar 2026</span>
+    </div>
+  </section>
+
+  <section id="publications">
+    <h2>Publications & Presentations</h2>
+
+    <div class="year-label">2026</div>
+    <div class="item">
+      <span class="item-title">Multimodal Analysis of YouTube Shorts View Counts</span>
+      <span class="item-authors"><strong>Sungjun An</strong>, Chanhee Kwak</span>
+      <span class="item-venue">IPIU, 2026</span>
+    </div>
+
+    <div class="year-label">2025</div>
+    <div class="item">
+      <span class="item-title">Early Detection of Autonomous Driving Perception Errors</span>
+      <span class="item-authors"><strong>Sungjun An</strong>, Chanhee Kwak</span>
+      <span class="item-venue">KDCS, 2025</span>
+    </div>
+
+    <div class="item">
+      <span class="item-title">CNN vs Swin Transformer for Food Image Classification</span>
+      <span class="item-authors"><strong>Sungjun An</strong>, Chanhee Kwak</span>
+      <span class="item-venue">KSCI, 2025</span>
+    </div>
+  </section>
+
+  <section class="contact-section">
+    <h2>Contact</h2>
     <p>
-      I am an undergraduate student interested in bridging <strong>Software Engineering</strong> and <strong>Data Science</strong>. 
-      My research focuses on <strong>Multimodal Learning</strong>, particularly on aligning and fusing visual, textual, and temporal signals.
-      I am interested in extending this line of research toward vision-language models.
+      <a href="mailto:sungjun020521@gmail.com">Email</a> / <a href="https://github.com/Mutatio02" target="_blank">GitHub</a>
     </p>
   </section>
 
-  <!-- Interests -->
-  <section>
-    <h2>Research Interests</h2>
-    <div>
-      <span class="interest-tag">Multimodal Learning</span>
-      <span class="interest-tag">Representation Learning</span>
-      <span class="interest-tag">Vision-Language Models</span>
-      <span class="interest-tag">Generative AI</span>
-    </div>
-  </section>
-
-  <!-- Publications -->
-<section>
-  <h2>Publications & Presentations</h2>
-
-  <div class="card">
-    <div class="title">Multimodal Analysis of YouTube Shorts View Counts</div>
-    <div class="meta">
-      <strong>Sungjun An</strong>, Chanhee Kwak · IPIU 2026
-    </div>
-    <div class="meta">Multimodal learning with image-text data for view prediction</div>
-  </div>
-
-  <div class="card">
-    <div class="title">Early Detection of Autonomous Driving Perception Errors via Cross-Attention GRU Multimodal Fusion</div>
-    <div class="meta">
-      <strong>Sungjun An</strong>, Chanhee Kwak · KDCS 2025
-    </div>
-    <div class="meta">Multimodal fusion for perception error detection</div>
-  </div>
-
-  <div class="card">
-    <div class="title">CNN vs Swin Transformer for Multi-class Food Image Classification</div>
-    <div class="meta">
-      <strong>Sungjun An</strong>, Chanhee Kwak · KSCI 2025
-    </div>
-    <div class="meta">Comparison of deep learning architectures for image classification</div>
-  </div>
-
-</section>
-
-  <!-- Teaching -->
-  <section>
-    <h2>Teaching Experience</h2>
-
-    <div class="card" style="border-left-color: var(--accent-color);">
-      <div class="title">Teaching Assistant & Assistant Instructor</div>
-      <div class="meta">TedI Coding Academy · Jul 2025 – Present</div>
-      <p>
-        Supported course instruction in Python and C/C++ as both a teaching assistant and assistant instructor. 
-        Provided hands-on guidance for 20+ students and assisted in strengthening their understanding of algorithms and data structures.
-      </p>
-    </div>
-
-  </section>
-
-  <!-- Contact -->
-  <section>
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:sungjun020521@gmail.com">sungjun020521@gmail.com</a></p>
-    <p>GitHub: <a href="https://github.com/Mutatio02" target="_blank">github.com/Mutatio02</a></p>
-  </section>
-
-</div>
-
-<footer>
-  © 2026 Sungjun An
-</footer>
+  <footer>
+    <p>© 2026 Sungjun An. Last updated: April 2026.</p>
+  </footer>
 
 </body>
 </html>
